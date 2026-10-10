@@ -1,0 +1,7 @@
+Maven project structure:
+pom.xml
+dataset_synthetic_1000.csv
+src/main/java/sim/TaskSchedulingSim.java
+
+Do not keep TaskSchedulingSim.java only at the project root.
+The package declaration is `package sim;` and pom.xml uses mainClass `sim.TaskSchedulingSim`.

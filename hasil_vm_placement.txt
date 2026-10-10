@@ -1,0 +1,16 @@
+=== VM PLACEMENT REPORT (First-Fit Allocation) ===
+Host     Kelas  Kapasitas PE   VM Terpasang   PE Terpakai  Rincian VM                    
+-----------------------------------------------------------------------------------------
+Host 0   High            8 PE           2 VM          8 PE  2x Large                      
+Host 1   High            8 PE           2 VM          8 PE  2x Large                      
+Host 2   High            8 PE           3 VM          8 PE  1x Large, 2x Medium           
+Host 3   Mid             6 PE           3 VM          6 PE  3x Medium                     
+Host 4   Mid             6 PE           3 VM          6 PE  3x Medium                     
+Host 5   Mid             6 PE           4 VM          6 PE  2x Medium, 2x Small           
+Host 6   Mid             6 PE           6 VM          6 PE  6x Small                      
+Host 7   Low             3 PE           3 VM          3 PE  3x Small                      
+Host 8   Low             3 PE           3 VM          3 PE  3x Small                      
+Host 9   Low             3 PE           1 VM          1 PE  1x Small                      
+-----------------------------------------------------------------------------------------
+TOTAL   : 10 Host, 57 PE Kapasitas | 30 VM Terpasang, 55 PE Terpakai (Sisa 2 PE)
+STATUS  : Semua 30 VM berhasil ditempatkan ke Host secara statis (First-Fit OK).

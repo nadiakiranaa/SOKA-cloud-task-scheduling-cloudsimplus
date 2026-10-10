@@ -1,0 +1,25 @@
+# Maven build output
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Large trace files (>100MB exceeds GitHub limit)
+*.gz
+*.tar
+*.zip
+instance_usage*.json.gz
+
+# OS specific files
+.DS_Store
+Thumbs.db
