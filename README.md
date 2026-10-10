@@ -211,3 +211,6 @@ Output tabel akan langsung muncul di terminal dan otomatis tersimpan ke file `ha
 
 **Q4: "Kenapa menguji di 100, 500, dan 1.000 task?"**
 > *"Untuk uji skalabilitas (Scalability Testing). 100 task sebagai baseline beban ringan (3 task/VM), 500 task untuk beban sedang (16 task/VM), dan 1.000 task sebagai stress-test beban tinggi (33 task/VM) guna membuktikan perilaku kestabilan dan kemacetan antrean pada kedua algoritma."*
+
+
+**LINk GOOGLE DOCUMENTS: https://docs.google.com/document/d/14FItXP_HITYkznPutjx_mhvHB2T92whwGRFqltupONA/edit?tab=t.0**
